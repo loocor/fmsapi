@@ -1,0 +1,29 @@
+{
+  "name": "fmsapi",
+  "version": "1.0.0",
+  "description": "Nodejs wrapper for FileMaker Data API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loocor/fmsapi.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "filemaker"
+  ],
+  "author": "loocor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loocor/fmsapi/issues"
+  },
+  "homepage": "https://github.com/loocor/fmsapi#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "koa": "^2.3.0",
+    "monk": "^6.0.1"
+  }
+}
